@@ -1,0 +1,42 @@
+.divFilters {
+    background-color: #7c4404b0;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.originFilter {
+    height: 3vh;
+    border: none;
+    border-radius: 3px;
+    margin-right: 1.5vw;
+    background-color: rgb(212, 210, 205);
+    cursor: pointer;
+}
+.dietFilter {
+    height: 3vh;
+    border: none;
+    border-radius: 3px;
+    margin-right: 1.5vw;
+    background-color: rgb(212, 210, 205);
+    cursor: pointer;
+}
+.order {
+    height: 3vh;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(212, 210, 205);
+    cursor: pointer;
+}
+.resetButton {
+    height: 3vh;
+    border: none;
+    border-radius: 3px;
+    margin-right: 1.5vw;
+    background-color: rgb(212, 210, 205);
+    cursor: pointer;
+}
+.resetButton:hover {
+    background-color: rgb(180, 179, 175);
+}

@@ -1,0 +1,39 @@
+.Footer {
+    display: flex;
+    position: relative;
+    width: 99.1.5vw;
+    height: 16vh;
+    bottom: 0;
+    z-index: -1;
+    background-image: url("../../assets/images/backgroundFooter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    color: azure;
+}
+.SocialNetworks {
+    max-height: 16vh;
+    max-width: 30vw;
+    display: flex;
+}
+.divIcons {
+    display: flex;
+    flex-direction: column;
+}
+.iconsFooter {
+    max-width: 2.9vw;
+}
+.linksNetworks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+.links {
+    margin-top: 0.65vh;
+    margin-bottom: 0.65vh;
+}
+.Contact {
+    max-height: 16vh;
+}

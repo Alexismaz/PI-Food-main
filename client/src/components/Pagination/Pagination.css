@@ -1,0 +1,33 @@
+.Pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    gap: 1rem;
+    background-color: transparent;
+}
+.NumPage{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.buttonPage {
+    cursor: pointer;
+    color: #a9b388;
+}
+.buttonPage:hover {
+    font-size: 40px;
+    transition: 1s;
+}
+.pageNumbers {
+    width: 3%;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(108, 112, 116, 0.479);
+    color:#a9b388;
+    border-radius: 5px;
+    align-self: center;
+}
+.currentPage {
+    background-color: rgba(218, 50, 50, 0.74);
+}

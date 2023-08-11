@@ -1,0 +1,49 @@
+.Nav {
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 30px;
+    height: 8vh;
+    width: 90vw;
+    position: relative;
+    left: 5%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.buttonNav {
+    font-size: 20px;
+    color: rgb(201, 207, 211);
+    border: none;
+    height: 5vh;
+    width: 10vw;
+    background: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.buttonNav:hover {
+    background-color:rgba(124, 16, 16, 0.363);
+}
+.divHeader {
+    position: absolute;
+    width: 99.2vw;
+    height: 17vh;
+    top: 0;
+    background-image: url('../../assets/images/backgroundNavbar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    z-index: -1;
+}
+.iconNav {
+    height: 8vh;
+    position: relative;
+}
+.h2Nav {
+    color: rgb(201, 207, 211);
+    position: relative;
+}
+.divNavIcon {
+    display: flex;
+}

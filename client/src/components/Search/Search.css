@@ -1,0 +1,24 @@
+.inputSearch {
+    border-radius: 4px;
+    height: 3vh;
+    border: none;
+    margin-right: 2px;
+}
+.buttonSearch {
+    border: none;
+    height: 3.2vh;
+    border-radius: 4px;
+    width: 6vw;
+    background-color:rgb(163, 8, 2);
+    color: rgb(201, 207, 211);
+    font-weight: 550;
+    font-size: 15px;
+    cursor: pointer;
+}
+.buttonSearch:hover {
+    transition: 1s;
+    font-size: 18px;
+}
+.divSearch {
+    display: flex;
+}

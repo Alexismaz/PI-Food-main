@@ -1,0 +1,46 @@
+.Card {
+    width: 33vw;
+    height: 30vh;
+    border-radius: 10px;
+    background-color: rgba(90, 92, 97, 0.623);
+    margin: 5px;
+    max-width: 560px;
+    display: flex
+    ;
+}
+.linkCard {
+    width: 33%;
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.imgCard {
+    width: 20vw;
+    max-width: 250px;
+    border-radius: 20px;
+    margin-top: 1.5vw;
+    max-height: 220px;
+    margin-left: 0.8vw;
+
+}
+.h2Card {
+    font-weight: 500;
+    font-size: 15px;
+    color: aliceblue;
+}
+.h3Card {
+    font-size: 17px;
+    margin-bottom: 2.5vh;
+    color: rgb(0, 0, 0);
+    background-color: #a9b388;
+}
+.cardDescription {
+    margin-top: 4vh;
+    margin-left: 1vw;
+    margin-right: 0.5;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: #a9b388;
+    height: 21vh;
+    width: 14vw;
+}
