@@ -11,8 +11,8 @@ export default function Pagination() {
     const recipesPerPage = 9
     const totalPages = Math.ceil(recipes.length / recipesPerPage)
     const buttonPages = Array.from({length: totalPages}, (_,i) => i + 1)
-
     const recipesCards = recipes.slice((currentPage - 1) * recipesPerPage, currentPage * recipesPerPage)
+    console.log(recipesCards)
 
     const changePage = (pag) => {
       if(pag === "prevPage") {

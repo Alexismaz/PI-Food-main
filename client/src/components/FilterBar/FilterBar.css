@@ -1,37 +1,48 @@
 .divFilters {
     background-color: #7c4404b0;
-    height: 4vh;
+    height: 5vh;
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
     align-items: center;
 }
 .originFilter {
-    height: 3vh;
+    height: 4vh;
     border: none;
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
     border-radius: 3px;
     margin-right: 1.5vw;
     background-color: rgb(212, 210, 205);
     cursor: pointer;
 }
 .dietFilter {
-    height: 3vh;
+    height: 4vh;
     border: none;
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
     border-radius: 3px;
     margin-right: 1.5vw;
     background-color: rgb(212, 210, 205);
     cursor: pointer;
 }
 .order {
-    height: 3vh;
+    height: 4vh;
     border: none;
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
     border-radius: 3px;
     background-color: rgb(212, 210, 205);
     cursor: pointer;
 }
 .resetButton {
-    height: 3vh;
+    height: 4vh;
     border: none;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
     border-radius: 3px;
     margin-right: 1.5vw;
     background-color: rgb(212, 210, 205);

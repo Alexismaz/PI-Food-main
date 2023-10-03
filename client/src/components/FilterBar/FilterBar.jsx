@@ -7,7 +7,7 @@ export default function FilterBar() {
     const [orderState, setOrderState] = useState({})
     const [originFilter, setOriginFilter] = useState("ALL")
     const [filter, setFilter] = useState()
-    const {filtred} = useSelector(state => state)
+    const { filtred } = useSelector(state => state)
     const dispatch = useDispatch()
 
     useEffect(() => {
@@ -20,13 +20,15 @@ export default function FilterBar() {
                 dispatch(filtradoTrue(true))
             }
         }
-    },[originFilter, filter])
+        // eslint-disable-next-line
+    },[dispatch, originFilter, filter]) 
 
     useEffect(() => {
         if(filtred === false) {
             dispatch(orderRecipes(orderState))
         }
-    }, [orderState])
+        // eslint-disable-next-line
+    }, [dispatch, orderState])
 
     const filterHandleChange = (event) => {
         dispatch(filtradoTrue(false))

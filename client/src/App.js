@@ -14,7 +14,7 @@ function App() {
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(allRecipes())
-  }, [])
+  }, [dispatch])
 const location = useLocation()
   return (
     <div className="App">

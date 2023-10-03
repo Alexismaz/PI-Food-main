@@ -1,7 +1,8 @@
-.Home {
-    background-image:  url('../../assets/images/fondoHome.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 67vh;
+.fondoHome {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1000;
+    width: 99.2vw;
+    height: 130vh;
 }

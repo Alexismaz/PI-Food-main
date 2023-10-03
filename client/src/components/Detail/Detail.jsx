@@ -9,7 +9,8 @@ export default function Detail() {
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(searchById(id))
-  }, [])
+    // eslint-disable-next-line
+  }, [dispatch])
   const recipe = useSelector(state => state.found)
   const PasoAPasoOrdenado = recipe.steps && recipe.steps.length > 0 ? recipe.steps.map((step) => <li key={step.paso}>{step.instruccion}</li>) : null
   const DietasOrdenadas = recipe.diets && recipe.diets.join(", ")

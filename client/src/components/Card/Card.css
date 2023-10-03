@@ -4,13 +4,13 @@
     border-radius: 10px;
     background-color: rgba(90, 92, 97, 0.623);
     margin: 5px;
-    max-width: 560px;
-    display: flex
-    ;
+    max-width: 600px;
+    display: flex;
 }
 .linkCard {
-    width: 33%;
+    width: 30vw;
     display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
@@ -18,14 +18,17 @@
     width: 20vw;
     max-width: 250px;
     border-radius: 20px;
-    margin-top: 1.5vw;
-    max-height: 220px;
+    display: flex;
+    align-self: center;
+    height: 20vh;
     margin-left: 0.8vw;
 
 }
 .h2Card {
     font-weight: 500;
     font-size: 15px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
     color: aliceblue;
 }
 .h3Card {
@@ -35,12 +38,14 @@
     background-color: #a9b388;
 }
 .cardDescription {
-    margin-top: 4vh;
     margin-left: 1vw;
-    margin-right: 0.5;
+    margin-right: 0.5vw;
     border: 1px solid;
     border-radius: 7px;
     border-color: #a9b388;
-    height: 21vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     width: 14vw;
 }
