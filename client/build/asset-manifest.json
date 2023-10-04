@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f1c593d.css",
+    "main.js": "/static/js/main.54ae1e8a.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/backgroundFooter.jpg": "/static/media/backgroundFooter.f87fdd71699284b0e5af.jpg",
+    "static/media/fondoLanding.jpg": "/static/media/fondoLanding.f14d095af3dd3820e130.jpg",
+    "static/media/fondoHome.jpg": "/static/media/fondoHome.af02eedbef4e230972d4.jpg",
+    "static/media/backgroundNavbar.jpg": "/static/media/backgroundNavbar.f196ea1a98024f028409.jpg",
+    "static/media/imageDefaultRecipes.jpg": "/static/media/imageDefaultRecipes.9027aa844cf1c5c39f75.jpg",
+    "static/media/iconPI.png": "/static/media/iconPI.1093ea1d79e56a3e020c.png",
+    "static/media/LogoApiFoods.png": "/static/media/LogoApiFoods.43d4f26ea2c846082aa0.png",
+    "index.html": "/index.html",
+    "main.6f1c593d.css.map": "/static/css/main.6f1c593d.css.map",
+    "main.54ae1e8a.js.map": "/static/js/main.54ae1e8a.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f1c593d.css",
+    "static/js/main.54ae1e8a.js"
+  ]
+}
