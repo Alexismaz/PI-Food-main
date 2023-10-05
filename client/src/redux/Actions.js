@@ -4,7 +4,7 @@ import {ALL_RECIPES, SEARCH_BY_ID, SEARCH_BY_NAME, FILTER, ORDER, ADD_RECIPE, PA
 export const allRecipes = () => {
     return async (dispatch) => {
         try {
-            const { data } = await axios.get("http://localhost:3001/recipes/all")
+            const { data } = await axios.get("https://pi-foods-backend-psi.vercel.app/recipes/all")
             console.log(data)
             dispatch({
                 type: ALL_RECIPES,
@@ -20,7 +20,7 @@ export const addRecipe = (recipe) => {
     console.log(recipe)
     return async (dispatch) => {
         try {
-            const { data } = await axios.post("http://localhost:3001/recipes", recipe)
+            const { data } = await axios.post("https://pi-foods-backend-psi.vercel.app/recipes", recipe)
             console.log(data)
             dispatch({
                 type: ADD_RECIPE,
@@ -35,7 +35,7 @@ export const addRecipe = (recipe) => {
 export const searchById = (id) => {
     return async (dispatch) => {
         try {
-            const { data } = await axios.get(`http://localhost:3001/recipes/${id}`)
+            const { data } = await axios.get(`https://pi-foods-backend-psi.vercel.app/recipes/${id}`)
             if(data.origin === "DB") {
                 const newData = {...data, steps: JSON.parse(data.steps)}
                 dispatch({
@@ -57,7 +57,7 @@ export const searchById = (id) => {
 export const searchByName = (name) => {
     return async (dispatch) => {
         try {
-            const { data } = await axios.get(`http://localhost:3001/recipes/?name=${name}`)
+            const { data } = await axios.get(`https://pi-foods-backend-psi.vercel.app/recipes/?name=${name}`)
             dispatch({
                 type: SEARCH_BY_NAME,
                 payload: data
